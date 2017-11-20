@@ -1,0 +1,30 @@
+<!--<app-detail></app-detail>-->
+<div class = "container">
+  <div class="row  light-blue lighten-5" >
+    <div class="details">
+      <h5><b>Add Details</b></h5>
+    </div>
+    <form>
+      <div class="input-field">
+        <input id="authorname" #aname type="text" class="validate" placeholder="Author Name">
+        <!--<label for="authorname">Author Name</label>-->
+      </div>
+
+      <div class="input-field">
+        <input id="title" #title type="text" class="validate" placeholder="Title">
+        <!--<label for="title">Title</label>-->
+      </div>
+
+      <div class="input-field">
+        <input id="post" #post type="text" class="validate" placeholder="Post">
+        <!--<label for="post">Post</label>-->
+      </div>
+
+      <div class = "input-field">
+        <a class="waves-effect waves-light btn" id="addbutton" (click)= "addBlog(aname.value,title.value, post.value)">Add</a>
+      </div>
+
+    </form>
+  </div>
+
+</div>

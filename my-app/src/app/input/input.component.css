@@ -1,0 +1,29 @@
+.row{
+  margin-top: 5%;
+  border: solid black 1px;
+width: 450px;
+}
+
+.btn{
+  float: right;
+}
+
+.div{
+  margin-left: 10px;
+}
+
+.container{
+  margin-top: 1%;
+  height: 100px;
+}
+.details{
+  margin-left: 2px;
+
+}
+
+.input-field{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+

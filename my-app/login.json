@@ -1,0 +1,28 @@
+{
+  "login": [
+    {
+      "username": "manisha",
+      "lastName": "poddar",
+      "password": "manisha"
+    },
+
+    {
+      "username": "anju",
+      "lastName": "poddar",
+      "password": "anju"
+    },
+
+    {
+      "username": "geet",
+      "lastName": "mittal",
+      "password": "geet"
+    },
+
+    {
+      "username": "swati",
+      "lastName": "jain",
+      "password": "swati"
+    }
+
+  ]
+}

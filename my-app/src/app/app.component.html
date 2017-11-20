@@ -1,0 +1,17 @@
+<!--
+<nav>
+  <div class="teal nav-wrapper">
+    &lt;!&ndash;<a href="#" class="brand-logo">Logo</a>&ndash;&gt;
+    <div id = "blogpost" class="left">Blog Post</div>
+    <ul style="float: right" id="nav-mobile" >
+    </ul>
+  </div>
+
+</nav>
+<router-outlet></router-outlet>
+
+-->
+
+
+<app-login *ngIf="!status" (login)="onLogin($event)"></app-login>
+<app-post *ngIf="status" (logout)="OnLogout($event)" ></app-post>

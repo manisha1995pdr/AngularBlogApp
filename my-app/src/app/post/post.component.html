@@ -1,0 +1,18 @@
+
+<nav>
+  <div class="teal nav-wrapper">
+    <div id = "blogpost" class="left">Blog Post</div>
+    <ul style="float: right" id="nav-mobile" ></ul>
+    <li id="logout" style="float: right" (click)="OnLogout()"> Log out</li>
+  </div>
+</nav>
+
+<div class="row append" >
+  <div class = "detail col s5">
+    <app-detail [blogs] = "blogs" (deleteID)="deleteBlog($event)" (updateEmiter)="updateBlog($event)"></app-detail>
+  </div>
+
+  <div class="col s5">
+    <app-input (notify)="addBlog($event)"></app-input>
+  </div>
+</div>

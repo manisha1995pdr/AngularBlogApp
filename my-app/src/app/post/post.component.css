@@ -1,0 +1,14 @@
+
+#blogpost {
+  margin-left: 70px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.append{
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.detail{
+  height: 400px;
+}
