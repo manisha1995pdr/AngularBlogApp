@@ -28,6 +28,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## User Credentials
 
-Username: manisha
-Password: MSNKD
+Username: manisha <br />
+Password: MSNKD <br />
 Heroku App Link: https://blog-manisha.herokuapp.com/
